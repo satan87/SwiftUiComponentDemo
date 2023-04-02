@@ -27,6 +27,14 @@ struct ContentView: View {
                     Text("Text Component")
                 }
                 
+                NavigationLink(destination: ListComponentView()) {
+                    Text("List Component")
+                }
+                
+                NavigationLink(destination: ListComponentView()) {
+                    Text("Grid Component")
+                }
+                
                 
             }.listStyle(.plain)
             

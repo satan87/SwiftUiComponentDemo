@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		374DC50829DA0AB5003A6DB9 /* ListComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DC50729DA0AB5003A6DB9 /* ListComponentView.swift */; };
+		374DC50C29DA0D9C003A6DB9 /* GridComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DC50B29DA0D9C003A6DB9 /* GridComponentView.swift */; };
 		37B5B31629BD1D9D002AC80F /* SwiftUiComponentDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B5B31529BD1D9D002AC80F /* SwiftUiComponentDemoApp.swift */; };
 		37B5B31829BD1D9D002AC80F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B5B31729BD1D9D002AC80F /* ContentView.swift */; };
 		37B5B31A29BD1D9E002AC80F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B5B31929BD1D9E002AC80F /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		374DC50729DA0AB5003A6DB9 /* ListComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListComponentView.swift; sourceTree = "<group>"; };
+		374DC50B29DA0D9C003A6DB9 /* GridComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridComponentView.swift; sourceTree = "<group>"; };
 		37B5B31229BD1D9D002AC80F /* SwiftUiComponentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiComponentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B5B31529BD1D9D002AC80F /* SwiftUiComponentDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiComponentDemoApp.swift; sourceTree = "<group>"; };
 		37B5B31729BD1D9D002AC80F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +46,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		374DC50929DA0ABB003A6DB9 /* ListComponentView */ = {
+			isa = PBXGroup;
+			children = (
+				374DC50729DA0AB5003A6DB9 /* ListComponentView.swift */,
+			);
+			path = ListComponentView;
+			sourceTree = "<group>";
+		};
+		374DC50A29DA0D88003A6DB9 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				374DC50B29DA0D9C003A6DB9 /* GridComponentView.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
 		37B5B30929BD1D9D002AC80F = {
 			isa = PBXGroup;
 			children = (
@@ -81,8 +101,10 @@
 		37B5B32329BD1F22002AC80F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				374DC50A29DA0D88003A6DB9 /* Grid */,
 				37B5B32729BD2496002AC80F /* Stack */,
 				37B5B32429BD1F29002AC80F /* TextComponentView */,
+				374DC50929DA0ABB003A6DB9 /* ListComponentView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,7 +201,9 @@
 				37B5B31829BD1D9D002AC80F /* ContentView.swift in Sources */,
 				37B5B33129BE6C4E002AC80F /* ZStackView.swift in Sources */,
 				37B5B32B29BE6A95002AC80F /* StackComponentView.swift in Sources */,
+				374DC50C29DA0D9C003A6DB9 /* GridComponentView.swift in Sources */,
 				37B5B31629BD1D9D002AC80F /* SwiftUiComponentDemoApp.swift in Sources */,
+				374DC50829DA0AB5003A6DB9 /* ListComponentView.swift in Sources */,
 				37B5B32929BD24A7002AC80F /* VStackView.swift in Sources */,
 				37B5B32F29BE6C2B002AC80F /* HStackView.swift in Sources */,
 				37B5B32629BD1F3F002AC80F /* TextComponentView.swift in Sources */,
